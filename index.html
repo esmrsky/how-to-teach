@@ -212,12 +212,15 @@ textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .sources{font-family:var(--ff-mono);font-size:13.8px;line-height:1.8;color:var(--muted)}
 .foot{padding:34px 0 80px;font-family:var(--ff-mono);font-size:11.5px;color:var(--muted);
   letter-spacing:.1em;text-transform:uppercase;border-top:1px solid var(--hair)}
-</style><style id="polish-pack">/* touch + type courtesies (estate pass 2026-08) */
+</style><style id="polish-pack">/* touch + type courtesies (estate pass Aug 2026; paragraphs Oct 15, 2026; every other text block Oct 30, 2026) */
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 html,a,button,summary,label,[role="button"]{-webkit-tap-highlight-color:transparent}
 a,button,summary,[role="button"]{touch-action:manipulation}
 @media (pointer:coarse){a:active,button:active,summary:active,[role="button"]:active{scale:.975}}
+body{text-wrap-style:pretty}
 h1,h2,h3{text-wrap:balance}
+:where(h4,h5,h6,summary,legend,caption,dt,th,button){text-wrap-style:balance}
+p,li,dd,figcaption{text-wrap:pretty}
 </style>
 </head><body data-prose="plain" data-theme="light"><div class="bar-top"><div class="bar-inner">
   <span class="brand">Reconstruction / v7</span>
